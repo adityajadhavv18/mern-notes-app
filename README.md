@@ -6,6 +6,7 @@ Learn how frontend and backend connect in a real-world app while keeping the cod
 ---
 
 ## 🌟 Features
+
 - 🧠 Beginner-friendly structure with clean folder organization
 - ✨ Built completely with TypeScript (frontend + backend)
 - 🧱 3-tier architecture (Routes → Controllers → Services → Repositories)
@@ -17,13 +18,13 @@ Learn how frontend and backend connect in a real-world app while keeping the cod
 
 ## 🧩 Tech Stack
 
-| Layer | Technology |
-|--------|-------------|
-| **Frontend** | React + TypeScript + Redux Toolkit |
-| **Backend** | Express + Node.js (TypeScript) |
-| **Database** | MongoDB (Mongoose ORM) |
-| **Runtime** | Node.js |
-| **Package Manager** | npm |
+| Layer               | Technology                         |
+| ------------------- | ---------------------------------- |
+| **Frontend**        | React + TypeScript + Redux Toolkit |
+| **Backend**         | Express + Node.js (TypeScript)     |
+| **Database**        | MongoDB (Mongoose ORM)             |
+| **Runtime**         | Node.js                            |
+| **Package Manager** | npm                                |
 
 ---
 
@@ -34,3 +35,30 @@ mern-notes-app/
 ├── backend/ → Express + MongoDB (TypeScript)
 
 └── frontend/ → React + Redux (TypeScript)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/mern-notes-app.git
+cd mern-notes-app
+```
+
+### 2️⃣ Setup the backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### 3️⃣ Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
