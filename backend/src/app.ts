@@ -1,15 +1,15 @@
+import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
 import healthRoutes from "./routes/health.routes";
-
-dotenv.config();
+import noteRoutes from "./routes/note.routes";
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
 app.use("/api/health", healthRoutes);
+app.use("/api/notes", noteRoutes);
 
 // global 404 handler
 app.use((req, res) => {
