@@ -54,6 +54,7 @@ cd backend
 npm install
 npm run dev
 ```
+
 Create a .env file
 
 ```bash
@@ -61,17 +62,19 @@ PORT=5000
 NODE_ENV=development
 MONGO_URI=mongodb://localhost:27017/mern_notes_app
 ```
+
 ### 3️⃣ Start the backend
 
 ```bash
 npm run dev
 ```
+
 The server should start on http://localhost:5000
 You can test it by visiting:
+
 ```bash
 GET http://localhost:5000/api/health
 ```
-
 
 ### 3️⃣ Frontend Setup
 
@@ -80,10 +83,12 @@ cd ../frontend
 npm install
 npm run dev
 ```
+
 The app will start on http://localhost:3000
 Vite’s proxy setup will forward /api calls to your backend.
 
 ### 💡 Learning Outcomes
+
 - By completing this project, you’ll learn:
 - How a frontend and backend communicate through REST APIs.
 - How to use Redux Toolkit to manage global state.
@@ -92,7 +97,9 @@ Vite’s proxy setup will forward /api calls to your backend.
 - How to connect Node.js with MongoDB using Mongoose.
 
 ### 🧰 Tools & Dependencies
+
 #### Backend
+
 - express
 - mongoose
 - dotenv
@@ -101,6 +108,7 @@ Vite’s proxy setup will forward /api calls to your backend.
 - ts-node-dev
 
 #### Frontend
+
 - react
 - vite
 - redux toolkit
@@ -109,7 +117,8 @@ Vite’s proxy setup will forward /api calls to your backend.
 - typescript
 
 ## 🧑‍💻 Author
-### Aditya Indrajeet Jadhav
-- 📧 aadityaj.sas@gmail.com
-- 💼 GitHub: https://github.com/YOUR_USERNAME
 
+### Aditya Indrajeet Jadhav
+
+- 📧 aadityaj.sas@gmail.com
+- 💼 GitHub: https://github.com/adityajadhavv18
